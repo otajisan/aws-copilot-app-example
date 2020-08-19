@@ -27,6 +27,13 @@ jobs:
     - name: Deploy Container
       uses: otajisan/github-action-aws-copilot-deploy@development
       id: deploy-container
+      with:
+        aws_region: "ap-northeast-1"
+        aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        app: "spring-example-app"
+        svc: "spring-example-svc"
+
 #    - name: Deploy Container
 #      run:  echo "${{ steps.deploy-container.outputs }}"
 
