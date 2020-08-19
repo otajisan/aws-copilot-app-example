@@ -28,7 +28,7 @@ class ExampleControllerTest {
   fun `response data contains welcome message`() {
 
     val expected = ExampleController.Result(
-        message = "Hello AWS Copilot!!!"
+        message = "Hello AWS Copilot!!!!"
     )
 
     mockMvc.perform(MockMvcRequestBuilders.get("/"))
