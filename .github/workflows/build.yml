@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Deploy Container
-      uses: github-action-aws-copilot-deploy@development
+      uses: otajisan/github-action-aws-copilot-deploy@development
       id: deploy-container
 #    - name: Deploy Container
 #      run:  echo "${{ steps.deploy-container.outputs }}"
