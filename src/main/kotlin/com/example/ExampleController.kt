@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController
 class ExampleController {
   @GetMapping("/")
   fun get(): ResponseEntity<Result> =
-      ResponseEntity(Result(message = "Hello AWS Copilot!!!"), HttpStatus.OK)
+      ResponseEntity(Result(message = "Hello AWS Copilot!!!!"), HttpStatus.OK)
 
   data class Result(
       val message: String
