@@ -29,8 +29,8 @@ jobs:
         aws-region: ap-northeast-1
 
     - name: Deploy Container
-      uses: otajisan/github-action-aws-copilot-deploy@master
+      uses: otajisan/github-action-aws-copilot-deploy@v1
       id: deploy-container
       with:
         svc: "aws-copilot-app-example-service"
-        tag: "v0.0.2"
+        tag: "v0.0.3"
