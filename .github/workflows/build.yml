@@ -39,8 +39,8 @@ jobs:
         #aws_account: ${{ secrets.AWS_ACCOUNT }}
         #aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         #aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        app: "spring-example-app"
-        svc: "spring-example-svc"
+        app: "aws-copilot-app-example"
+        svc: "aws-copilot-app-example-service"
         tag: "v0.0.1"
 
 #    - name: Deploy Container
